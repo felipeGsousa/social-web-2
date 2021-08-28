@@ -1,5 +1,33 @@
-.mat-card-simples{
+.mat-card-simples {
   max-width: 300px;
   background-color: aliceblue;
   margin-top: 10px;
+}
+
+.mat-card-usuario{
+  background-color: rgb(188, 199, 198);
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+}
+
+.footer-usuario{
+  display: flex;
+  justify-content: flex-end;
+  margin: 3px;
+}
+
+.card-usuario-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-usuario-header{
+  align-self: center;
+  margin: 30px;
+}
+.field-margin{
+  margin-top: 20px;
 }
